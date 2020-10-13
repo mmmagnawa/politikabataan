@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Webpage Sample</title>
+</head>
+
+<style>
+body {
+    background-color: PowderBlue;
+}
+
+.name {
+    overflow:hidden;
+    background-image: url("Images/titlebg.png");
+    height: 150px;
+}
+
+.name p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 36pt;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: MidnightBlue;
+    font-family: Arial;
+}
+
+/* Navigation bar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: SlateBlue;
+    color: White;
+}
+
+/* Text paragraph properties */
+.words {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:CornSilk;
+}
+
+.words h2 {
+    font-family: Arial;
+}
+
+.words h3 {
+    font-family: Arial;
+}
+
+.words p {
+    text-indent: 20px;
+}
+
+.words img {
+    float: left;
+}
+
+.img-container {
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+
+.img-container img {
+    width: 280px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: MidnightBlue;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+</style>
+
+<body>
+
+<div class="name">
+<p><b>GENERIC TITLE</b></p>
+</div>
+
+<div class="topnav">
+<a href="Home.html"><b>Home</b></a>
+<a href="http://www.google.com" target="_blank"><b>Web</b></a>
+<a href="Link1.html"><b>About</b></a>
+</div>
+
+
+<div class="words">
+<div style="padding:30px">
+
+<h2>Creative Article Name</h2><hr>
+
+<img src="calambanga.png" width="220" style="margin-right:15px; margin-bottom:15px">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, odio in iaculis sollicitudin, tellus risus euismod nulla, id porttitor enim augue in ante. Nunc commodo, ligula vitae elementum dignissim, odio odio vestibulum metus, non lobortis ex lorem in augue. Integer nisl erat, vestibulum tempus volutpat non, cursus suscipit nisl. Sed urna enim, viverra quis ante vel, elementum ultrices dui. Nullam ut orci sit amet sapien semper aliquet. Aenean iaculis magna libero, ut posuere quam pretium ac. Curabitur sit amet pulvinar sem, eu molestie erat. Mauris maximus felis quis eleifend bibendum. Nullam auctor varius nisl nec vehicula.</p>
+
+<p>Quisque nec consectetur orci. Aenean neque augue, dignissim in arcu nec, dignissim cursus nisl. Sed convallis elementum dui, tempus vestibulum ex rutrum aliquam. Vestibulum sit amet rhoncus enim. Nulla vitae aliquam dolor, in interdum ex. Ut semper sem non commodo pharetra. Integer vitae risus nec orci cursus varius id ac massa. Donec gravida massa sapien, in congue eros viverra ac.</p>
+
+<h3> Sub-Topic</h3>
+
+<p>Curabitur varius sapien in diam gravida, eu sodales lectus cursus. Etiam id condimentum turpis. Mauris efficitur non ex ac hendrerit. Morbi gravida lacus erat. Aenean ligula ipsum, elementum ultricies sodales nec, pulvinar vel justo. Quisque dapibus sodales tortor, et placerat mauris interdum a. Morbi egestas lacus et efficitur imperdiet. Sed tristique scelerisque ligula, eget viverra lorem. Aliquam lacinia, lectus vel eleifend aliquet, lorem ante dictum magna, at gravida nisi nibh id dolor. Mauris hendrerit dolor id diam convallis, vitae auctor urna feugiat. In eu magna at eros euismod sodales. Aliquam commodo tempus sapien laoreet hendrerit.</p>
+
+<p>Nunc imperdiet sem vitae mattis rutrum. Nulla vel gravida metus. Fusce tincidunt metus vitae elit consectetur, in accumsan mauris efficitur. Donec id turpis quis leo semper pretium at sit amet lectus. Curabitur in lectus sit amet dolor facilisis efficitur. Donec vehicula efficitur sapien, cursus tincidunt felis interdum nec. Curabitur suscipit accumsan dapibus. Morbi auctor suscipit gravida. Phasellus venenatis malesuada velit sit amet tincidunt. Sed bibendum scelerisque turpis. Nullam malesuada fringilla arcu a iaculis. Vestibulum mollis dignissim sem, eget gravida justo tincidunt vel. Aenean ligula ipsum, elementum ultricies sodales nec, pulvinar vel justo. Quisque dapibus sodales tortor, et placerat mauris interdum a. Morbi egestas lacus et efficitur imperdiet. Sed tristique scelerisque ligula, eget viverra lorem. <b>Mouseover the four pictures below.</b></p>
+
+<div class="clearfix">
+  <div class="img-container">
+    <img src="Images/img1.png" alt="Room" title="Example of a room">
+  </div>
+  <div class="img-container">
+    <img src="Images/img2.png" alt="Forest" title="The rightmost picture has no mouseover text.">
+  </div>
+  <div class="img-container">
+    <img src="Images/img3.png" alt="Nebula" title="Rosette Nebula, taken by NASA">
+  </div>
+  <div class="img-container">
+    <img src="Images/img4.png" alt="Bonfire">
+  </div>
+</div>
+
+<br><br>
+
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Footer text. | It is always visible because its position attribute is fixed.</p>
+</div> 
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Sample Title
 
 This is 100% a test I have no idea what I am doing
 

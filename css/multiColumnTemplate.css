@@ -55,8 +55,12 @@ a:visited {
     margin-left: auto;
     margin-bottom: 30px;
     display: flex;
+	transition: all 0.5s linear;
 }
-
+.artrows:hover {
+    background-color: #7E57C2;
+    cursor: pointer;
+}
 .artrows img {
 	float: left;
 	margin-left: 30px;

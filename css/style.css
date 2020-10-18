@@ -81,7 +81,7 @@
     padding-right: 5%;
     color: #212026;
     font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 0px;
 }
@@ -180,14 +180,14 @@
 .artrows h3 {
     padding-right: 5%;
     font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
 
 .artrows p {
-	font-size: 20px;
+	font-size: 15px;
 	padding-right: 15px;
 	padding-bottom: 15px;
 }

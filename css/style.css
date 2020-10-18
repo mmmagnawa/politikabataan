@@ -38,7 +38,6 @@
 }
 
 .secondary_header {
-    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #212026;
@@ -47,11 +46,8 @@
 
 .container .secondary_header ul {
     margin-top: 0%;
-    margin-right: auto;
     margin-bottom: 0px;
-    margin-left: auto;
     padding-right: 0px;
-    width: 100%;
     padding-bottom: 15px;
 }
 
@@ -63,8 +59,7 @@
     color: #FFFFFF;
     letter-spacing: 1px;
     text-align: center;
-    width: 20%;
-    transition: all 0.3s linear;
+    width: 24%;
 }
 
 .secondary_header ul li:hover {
@@ -179,7 +174,7 @@
     margin-left: auto;
     margin-bottom: 30px;
     display: flex;
-	transition: all 0.5s linear;
+	transition: all 0.3s linear;
 }
 
 .artrows h3 {

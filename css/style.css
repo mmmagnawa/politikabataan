@@ -39,7 +39,7 @@
 
 .secondary_header {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom:20px;
     background-color: #212026;
     clear: left;
 }
@@ -584,4 +584,15 @@ a:link {
 
 a:visited {
 	color:inherit;
+}
+
+.scroll{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-top: -115px;
+	width: 100%;
+	position: fixed;
+}
+.scroll2{
+	margin-top: 45px;
 }

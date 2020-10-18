@@ -653,6 +653,10 @@ a:visited {
 	z-index:1
 }
 
+.hidden:hover{
+	cursor:pointer;
+}
+
 .hidden img{
 	float: left;
 }

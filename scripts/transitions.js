@@ -16,7 +16,12 @@ window.addEventListener('scroll', function(e) {
 	}
 });
 
+
 //for contacts
+
+var body = document.getElementById("opcontainer");
+var body2 = document.getElementById("opcontainer2");
+
 document.getElementById("1").addEventListener("click", displayBio0);
 document.getElementById("2").addEventListener("click", displayBio1);
 document.getElementById("3").addEventListener("click", displayBio2);
@@ -26,6 +31,7 @@ document.getElementById("6").addEventListener("click", displayBio5);
 
 var profiles = [];
 var clicked = [];
+var other = false;
 for(i=1;i<7;i++){
 	profiles.push(document.getElementById(i.toString() + "_full"));
 	clicked.push(false);
@@ -90,6 +96,8 @@ function displayBio5(){
 	if(clicked[5] == false){
 		clicked[5] = true;
 		profiles[5].classList.add("displayProfile_full");
+		body.classList.add("turnOpaque");
+		body2.classList.add("turnOpaque");
 	}
 	else{
 		clicked[5] = false;

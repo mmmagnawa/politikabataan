@@ -650,6 +650,7 @@ a:visited {
 	top: 10%;
 	padding-bottom: 20px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	z-index:1
 }
 
 .hidden img{
@@ -676,3 +677,16 @@ a:visited {
 .displayProfile_full{
 	display: block;
 }
+
+#opcontainer{
+	z-index:0
+}
+
+#opcontainer{
+	z-index:0
+}
+
+.turnOpaque{
+	opacity: 0.5;
+}
+

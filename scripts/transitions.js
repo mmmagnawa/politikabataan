@@ -17,31 +17,82 @@ window.addEventListener('scroll', function(e) {
 });
 
 //for contacts
-document.getElementById("6").addEventListener("click", displayBio);
+document.getElementById("1").addEventListener("click", displayBio0);
+document.getElementById("2").addEventListener("click", displayBio1);
+document.getElementById("3").addEventListener("click", displayBio2);
+document.getElementById("4").addEventListener("click", displayBio3);
+document.getElementById("5").addEventListener("click", displayBio4);
+document.getElementById("6").addEventListener("click", displayBio5);
 
 var profiles = [];
-
-
+var clicked = [];
 for(i=1;i<7;i++){
-	profiles.push(document.getElementById(i));
+	profiles.push(document.getElementById(i.toString() + "_full"));
+	clicked.push(false);
 };
 
-
-
-var element3 = document.getElementById("6");
-var element3_full = document.getElementById("6_full");
-var exit = document.getElementById("exit");
-
-var clicked = false;
-
-function displayBio(){
-	if(clicked == false){
-		clicked = true;
-		element3_full.classList.add("displayProfile_full");
-		exit.add("displayProfile_full");
+function displayBio0(){
+	if(clicked[0] == false){
+		clicked[0] = true;
+		profiles[0].classList.add("displayProfile_full");
 	}
 	else{
-		clicked = false;
-		element3_full.classList.remove("displayProfile_full");
+		clicked[0] = false;
+		profiles[0].classList.remove("displayProfile_full");
+	}
+}
+
+function displayBio1(){
+	if(clicked[1] == false){
+		clicked[1] = true;
+		profiles[1].classList.add("displayProfile_full");
+	}
+	else{
+		clicked[1] = false;
+		profiles[1].classList.remove("displayProfile_full");
+	}
+}
+
+function displayBio2(){
+	if(clicked[2] == false){
+		clicked[2] = true;
+		profiles[2].classList.add("displayProfile_full");
+	}
+	else{
+		clicked[2] = false;
+		profiles[2].classList.remove("displayProfile_full");
+	}
+}
+
+function displayBio3(){
+	if(clicked[3] == false){
+		clicked[3] = true;
+		profiles[3].classList.add("displayProfile_full");
+	}
+	else{
+		clicked[3] = false;
+		profiles[3].classList.remove("displayProfile_full");
+	}
+}
+
+function displayBio4(){
+	if(clicked[4] == false){
+		clicked[4] = true;
+		profiles[4].classList.add("displayProfile_full");
+	}
+	else{
+		clicked[4] = false;
+		profiles[4].classList.remove("displayProfile_full");
+	}
+}
+
+function displayBio5(){
+	if(clicked[5] == false){
+		clicked[5] = true;
+		profiles[5].classList.add("displayProfile_full");
+	}
+	else{
+		clicked[5] = false;
+		profiles[5].classList.remove("displayProfile_full");
 	}
 }

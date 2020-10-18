@@ -163,18 +163,25 @@
     margin-bottom: 10px;
     color: #2e2d33;
 }
-
 .artrows {
     background: #ffffff;
     width: 80%;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-    margin-top: 0%;
 	color: #212026;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
     display: flex;
 	transition: all 0.3s linear;
+}
+
+.artrows img {
+	float: left;
+	margin-left: 30px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0px;
 }
 
 .artrows h3 {
@@ -202,14 +209,7 @@
 	color: #ffffff;
 }
 
-.artrows img {
-	float: left;
-	margin-left: 30px;
-	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-right: 0px;
-}
+
 
 .forum {
 	background-color: #f4f5f6;
@@ -551,6 +551,22 @@ body {
 	margin-left: auto;
 }
 
+.profilethumb{
+	width: 250px;
+	height: 300px;
+	border-radius: 0px;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+.profilethumbh{
+	width: 350px;
+	height: 420px;
+	border-radius: 0px;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
 .thumbnail_align {
 	text-align: center;
 }
@@ -595,4 +611,68 @@ a:visited {
 }
 .scroll2{
 	margin-top: 45px;
+}
+
+.facerow{
+	display: flex;
+    width: 90%;
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+	color: #212026;
+}
+
+.facerow p{
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.profile{
+	width: 300px;
+	height: 420px;
+	background-color: white;
+	margin-right: auto;
+    margin-left: auto;
+	position: static;
+	transition: all 0.5s linear;
+}
+
+.profile:hover{
+	cursor: pointer
+}
+
+.hidden{
+	display:none;
+	width: 90%;
+	background-color: white;
+	position: fixed;
+	left: 5%;
+	top: 10%;
+	padding-bottom: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.hidden img{
+	float: left;
+}
+
+.hidden h3{
+	padding-left: 30%;
+	font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.hidden p{
+	padding-left: 30%;
+	padding-right: 5%;
+	font-size: 17px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	display: block;
+	text-align: justify;
+}
+
+.displayProfile_full{
+	display: block;
 }

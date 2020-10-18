@@ -15,3 +15,33 @@ window.addEventListener('scroll', function(e) {
 		element2.classList.remove("scroll2");	
 	}
 });
+
+//for contacts
+document.getElementById("6").addEventListener("click", displayBio);
+
+var profiles = [];
+
+
+for(i=1;i<7;i++){
+	profiles.push(document.getElementById(i));
+};
+
+
+
+var element3 = document.getElementById("6");
+var element3_full = document.getElementById("6_full");
+var exit = document.getElementById("exit");
+
+var clicked = false;
+
+function displayBio(){
+	if(clicked == false){
+		clicked = true;
+		element3_full.classList.add("displayProfile_full");
+		exit.add("displayProfile_full");
+	}
+	else{
+		clicked = false;
+		element3_full.classList.remove("displayProfile_full");
+	}
+}

@@ -163,6 +163,15 @@
     margin-bottom: 10px;
     color: #2e2d33;
 }
+
+.container .forum h4{
+    padding-left: 5%;
+    padding-right: 5%;
+	color: #212026;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
 .artrows {
     background: #ffffff;
     width: 80%;

@@ -668,7 +668,9 @@ a:visited {
 	top: 10%;
 	padding-bottom: 20px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	z-index:1
+	z-index:1;
+	border-radius: 20px;
+	border: 5px solid #555;
 }
 
 .hidden:hover{
@@ -709,6 +711,6 @@ a:visited {
 }
 
 .turnOpaque{
-	opacity: 0.5;
+	opacity: 0.2;
 }
 

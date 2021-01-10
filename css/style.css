@@ -1,3 +1,18 @@
+//Fonts
+@font-face {
+	font-family: 'Palatino Linotype';
+	src: url('fonts/pala.ttf');
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'Baufra-Medium';
+	src: url('fonts/Baufra-Medium.ttf');
+	font-weight: normal;
+	font-style: normal
+}
+
 //Headers and Container
 @charset "UTF-8";
 .container {
@@ -26,6 +41,10 @@
     border-top-color: #0f0f12;
     border-right-color: #0f0f12;
     border-left-color: #0f0f12;
+}
+
+.primary_header h1{
+    font-family: 'Baufra-Medium'
 }
 
 .title {
@@ -201,6 +220,7 @@
     text-transform: uppercase;
     margin-bottom: 0px;
     padding-bottom: 10px;
+	font-family: 'Palatino Linotype';
 }
 
 .artrows p {

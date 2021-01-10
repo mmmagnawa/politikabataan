@@ -400,22 +400,19 @@ body {
 
 .secondary_header {
     padding-top: 10px;
-    padding-bottom:20px;
     background-color: #212026;
-    clear: left;
 }
 
 .container .secondary_header ul li{
 	float: none;
-    width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
 .container .secondary_header ul {
-    margin-top: 0%;
-    margin-bottom: 0px;
-    padding-right: 0px;
-    padding-bottom: 15px;
+    margin-bottom: -27px;
+	padding-bottom: 18px;
 }
 
 .left_article {
@@ -654,10 +651,6 @@ a:visited {
 
 .displayProfile_full{
 	display: block;
-}
-
-#opcontainer{
-	z-index:0
 }
 
 #opcontainer{

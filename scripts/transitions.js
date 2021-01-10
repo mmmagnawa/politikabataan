@@ -1,3 +1,32 @@
+//for menu pop-up
+document.getElementById("menu_button").addEventListener("click", displayMenu);
+
+var toggled = false;
+
+function dispFunc(x) {
+  if (x.matches && toggled == false) { // If media query matches
+    popup_menu.classList.add("toggleDisplay");
+  } else {
+    popup_menu.classList.remove("toggleDisplay");
+  }
+}
+
+var x = window.matchMedia("(max-width: 768px)")
+dispFunc(x) // Call listener function at run time
+x.addListener(dispFunc) // Attach listener function on state changes	
+	
+
+function displayMenu(){
+	if(toggled == false){
+		toggled = true;
+		dispFunc(x)
+	}
+	else{
+		toggled = false;
+		dispFunc(x)
+	}
+}
+
 //for menu scrolling
 
 var element1 = document.getElementById("menu");
@@ -39,6 +68,7 @@ var profiles_full = [];
 var profiles = []
 var clicked = [];
 var other = false;
+
 for(i=1;i<7;i++){
 	profiles_full.push(document.getElementById(i.toString() + "_full"));
 	profiles.push(document.getElementById(i));

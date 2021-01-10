@@ -522,9 +522,7 @@ body {
 }
 
 .bigthumb {
-	padding-left: 5%;
-	padding-right: 5%;
-	width: 35%;
+	width: 300px;
 	border-radius: 0px;
 	height: 200px;
 	margin-left: auto;

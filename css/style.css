@@ -243,7 +243,7 @@
 	color: #ffffff;
 }
 .artrows:hover img{
-	width: 320px;
+	width: 40%;
 	height: 213px;
 	margin-bottom: 20px;
 	margin-left: 20px;
@@ -379,12 +379,7 @@ body {
 }
 
 @media (min-width: 321px) and (max-width: 700px) {
-.bigthumb {
-	width: 150px;
-	border-radius: 0px;
-	height: 100px;
-	margin-left: auto;
-}
+
 #menu_button {
 	display: block;
 }
@@ -522,7 +517,7 @@ body {
 }
 
 .bigthumb {
-	width: 300px;
+	width: 35%;
 	border-radius: 0px;
 	height: 200px;
 	margin-left: auto;

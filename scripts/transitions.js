@@ -11,7 +11,7 @@ function dispFunc(x) {
   }
 }
 
-var x = window.matchMedia("(max-width: 768px)")
+var x = window.matchMedia("(max-width: 700px)")
 dispFunc(x) // Call listener function at run time
 x.addListener(dispFunc) // Attach listener function on state changes	
 	

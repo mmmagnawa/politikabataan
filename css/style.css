@@ -374,93 +374,20 @@ body {
 	background-color: #f4f5f6;
 }
 
-@media (max-width: 320px) {
-.secondary_header ul li {
-	float: none;
-	margin-top: 28px;
-	margin-left: 0px;
-	width: 100%;
-}
-.container .secondary_header ul {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	height: auto;
-	width: 100%;
-	text-align: center;
-}
-.secondary_header {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 1px;
-	padding-bottom: 40px;
-}
-.left_article {
-	width: 100%;
-	height: auto;
-}
-.right_article {
-	width: 100%;
-	height: auto;
-}
-.placeholder {
-	width: 100%;
-	margin-top: 22PX;
-	margin-right: 0px;
-	margin-bottom: 22PX;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	max-width: 400px;
-	max-height: 200px;
-	height: auto;
-}
-.columns {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0PX;
-	padding-right: 0PX;
-	padding-bottom: 0PX;
-	padding-left: 0PX;
-}
-.columns p {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.column_half.left_half {
-	width: 100%;
-}
-.column_half.right_half {
-	width: 100%;
-}
-.container .left_article h3 {
-	margin-top: 30px;
-}
-.social .social_icon img {
-	width: 80%;
-}
-.container .secondary_header {
-}
+@media screen and (max-width: 320px) {
+
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
-
+@media (min-width: 321px) and (max-width: 700px) {
+.bigthumb {
+	width: 150px;
+	border-radius: 0px;
+	height: 100px;
+	margin-left: auto;
+}
 #menu_button {
 	display: block;
 }
-
 #menu_pic2{
 	display: none;
 }
@@ -471,12 +398,7 @@ body {
 #menu_button:hover #menu_pic1{
 	display: none;
 }
-.bigthumb {
-	width: 75px;
-	border-radius: 0px;
-	height: 50px;
-	margin-left: auto;
-}
+
 .toggleDisplay{
 	display: none;
 }
@@ -547,7 +469,8 @@ body {
 }
 }
 
-@media (min-width: 769px) and (max-width: 1000px) {
+
+@media (min-width: 701px) and (max-width: 1000px) {
 .secondary_header {
     padding-top: 10px;
     padding-bottom:20px;
@@ -599,7 +522,9 @@ body {
 }
 
 .bigthumb {
-	width: 300px;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 35%;
 	border-radius: 0px;
 	height: 200px;
 	margin-left: auto;

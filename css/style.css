@@ -471,7 +471,12 @@ body {
 #menu_button:hover #menu_pic1{
 	display: none;
 }
-
+.bigthumb {
+	width: 75px;
+	border-radius: 0px;
+	height: 50px;
+	margin-left: auto;
+}
 .toggleDisplay{
 	display: none;
 }

@@ -713,4 +713,9 @@ a:visited {
 .turnOpaque{
 	opacity: 0.2;
 }
+img.banner {
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
+}
 

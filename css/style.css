@@ -692,9 +692,36 @@ img.banner {
 	margin: auto;
 	width: 50%;
 }
+.centered p{
+	padding-top: 25px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #343434;
+}
+.centered #lyrics{
+	display:none;
+	background: white;
+}
+.centered h2{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #343434;
+}
 
+.centered #lyrics_button{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #575555;
+	font-size: 11px;
+	padding-left: 44%;
+	background:white;
+	border: 1px solid;
+	border-color:  #575555;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.centered #lyrics_button:hover{
+	cursor: pointer;
+	color: #7E57C2;
+}
 #embed{
 	width: 100%;
 	height: 400px;
 }
-

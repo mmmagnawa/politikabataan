@@ -1,0 +1,14 @@
+document.write("<p>I ain't gon' be cooking all day, I ain't your mama<br />I ain't gon' do your laundry, I ain't your mama <br /> I ain't your mama, boy, I ain't your mama<br /> When you gon' get your act together?<br /> I ain't your mama</p>");
+document.write("<p>No, I ain't your mama <br> No, I ain't your mama, no </p>");
+document.write("<p>Wake up and rise and shine (ah-yeah-yeah-yeah) <br>Best get to work on time (ah-yeah-yeah-yeah) <br>No more playing video games (ah-yeah-yeah-yeah) <br>Things are about to change ('round here, 'round here)</p>");
+document.write("<p>We used to be crazy in love <br>Can we go back to how it was? <br>When did you get too comfortable? <br>'Cause I'm too good for that, I'm too good for that <br>Just remember that, hey</p>");
+document.write("<p>I ain't gon' be cooking all day, I ain't your mama<br>I ain't gon' do your laundry, I ain't your mama<br>I ain't your mama, boy, I ain't your mama<br>When you gon' get your act together?<br>I ain't your mama</p>");
+document.write("<p>No, I ain't your mama <br> No, I ain't your mama, no</p>");
+document.write("<p>You're lucky to have these curves (ah-yeah-yeah-yeah)<br>Stop getting on my nerves (ah-yeah-yeah-yeah)<br>You still tryna ride this train (ah-yeah-yeah-yeah)<br>But some things have gotta change ('round here, here, here)</p>");
+document.write("<p>We used to be crazy in love<br>Can we go back to how it was?<br>When did you get too comfortable?<br>'Cause I'm too good for that, I'm too good for that<br>Just remember that, hey!</p>");
+document.write("<p>I ain't gon' be cooking all day, I ain't your mama<br>I ain't gon' do your laundry, I ain't your mama<br>I ain't your mama, boy, I ain't your mama<br>When you gon' get your act together?<br>I ain't your mama</p>");
+document.write("<p>No, I ain't your mama<br>No, I ain't your mama, no<br>I ain't your mama, no</p>");
+document.write("<p>We used to be crazy in love<br>Can we go back to how it was?<br>When did you get too comfortable?<br>'Cause I'm too good for that, I'm too good for that<br>Just remember that, hey</p>");
+document.write("<p>I ain't gon' be cooking all day, I ain't your mama<br>I ain't gon' do your laundry, I ain't your mama<br>I ain't your mama, boy (no, no, no)<br>I ain't your mama, boy (no, no)<br>When you gon' get your act together?<br>'Cause I ain't your mama, hey</p>");
+document.write("<p>I ain't gon' be cooking all day, I ain't your mama<br>I ain't gon' do your laundry, I ain't your mama<br>I ain't your mama, boy (na, na, na)<br>I ain't your mama, boy (na, na, na)<br>When you gon' get your act together?<br>I ain't your mama</p>");
+document.write("<p>No, I ain't your mama<br>No, I ain't your mama<br>No, I ain't your mama<br>No, I ain't your mama, no");

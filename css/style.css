@@ -611,6 +611,7 @@ a:visited {
     margin-left: auto;
     margin-bottom: 30px;
 	color: #212026;
+	overflow-x: auto; 
 }
 
 .facerow p{
@@ -677,9 +678,6 @@ a:visited {
 
 #opcontainer{
 	z-index:0
-}
-#opcontainer2{
-	white-space: nowrap;
 }
 
 .turnOpaque{

@@ -380,6 +380,18 @@ body {
 }
 
 @media screen and (min-width: 321px) and (max-width: 700px) {
+
+.hidden .profilethumbh{
+	width: 40%;
+	height: 35%;
+}
+body .hidden h3{
+	font-size: 12px;
+}
+body .hidden p{
+	font-size: 10px;
+}
+
 body .centered{
 	padding-left: 0px;
 	margin: none;
@@ -475,12 +487,15 @@ body .centered{
 
 
 @media (min-width: 701px) and (max-width: 1000px) {
-.profilethumbh{
-	width: 350px;
-	height: 420px;
-	border-radius: 0px;
-	padding-left: 25px;
-	padding-top: 20px;
+.hidden .profilethumbh{
+	width: 200px;
+	height: 200px;
+}
+body .hidden h3{
+	font-size: 18px;
+}
+body .hidden p{
+	font-size: 12px;
 }
 body .centered{
 	width: 75%;

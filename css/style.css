@@ -274,6 +274,7 @@
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     padding-bottom: 60px;
     padding-right: 0px;
+	word-wrap: break-word;
 	
 }
 

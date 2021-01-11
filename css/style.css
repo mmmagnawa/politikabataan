@@ -378,7 +378,17 @@ body {
 
 }
 
-@media (min-width: 321px) and (max-width: 700px) {
+@media screen and (min-width: 321px) and (max-width: 700px) {
+body .centered{
+	padding-left: 0px;
+	margin: none;
+	width: 75%;
+}
+
+.centered #embed{
+	width: 100%;
+	height: 315px;
+}
 
 #menu_button {
 	display: block;
@@ -464,6 +474,17 @@ body {
 
 
 @media (min-width: 701px) and (max-width: 1000px) {
+bpdy .centered{
+	padding-top: 25px;
+	margin: none;
+	width: 100%;
+}
+
+.centered #embed{
+	width: 100%;
+	height: 350px;
+}
+
 .secondary_header {
     padding-top: 10px;
     padding-bottom:20px;
@@ -665,5 +686,15 @@ img.banner {
 	padding-left: 5%;
 	padding-right: 5%;
 	width: 90%;
+}
+.centered{
+	padding-top: 25px;
+	margin: auto;
+	width: 50%;
+}
+
+#embed{
+	width: 100%;
+	height: 400px;
 }
 

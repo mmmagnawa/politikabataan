@@ -475,10 +475,18 @@ body .centered{
 
 
 @media (min-width: 701px) and (max-width: 1000px) {
-bpdy .centered{
+.profilethumbh{
+	width: 350px;
+	height: 420px;
+	border-radius: 0px;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+body .centered{
 	padding-top: 25px;
 	margin: none;
-	width: 100%;
+	width: 80%;
 }
 
 .centered #embed{
@@ -541,6 +549,10 @@ bpdy .centered{
 	border-radius: 0px;
 	height: 200px;
 	margin-left: auto;
+}
+
+#pftext{
+	padding-left: 5%
 }
 
 .profilethumb{
@@ -692,7 +704,7 @@ img.banner {
 .centered{
 	padding-top: 25px;
 	margin: auto;
-	width: 50%;
+	width: 80%;
 }
 .centered p{
 	padding-top: 25px;

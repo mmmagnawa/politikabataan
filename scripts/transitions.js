@@ -1,4 +1,4 @@
-//for menu pop-up
+//For mobile support (menu)
 document.getElementById("menu_button").addEventListener("click", displayMenu);
 
 var toggled = false;
@@ -27,7 +27,7 @@ function displayMenu(){
 	}
 }
 
-//for menu scrolling
+//For menu scrolling
 
 var element1 = document.getElementById("menu");
 var element2 = document.getElementById("addspace");
@@ -45,9 +45,7 @@ window.addEventListener('scroll', function(e) {
 	}
 });
 
-//FOR CONTACTS
-
-//initializing variables
+//For "contacts" page
 
 var body = document.getElementById("opcontainer");
 var body2 = document.getElementById("opcontainer2");

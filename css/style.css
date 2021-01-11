@@ -678,6 +678,9 @@ a:visited {
 #opcontainer{
 	z-index:0
 }
+#opcontainer2{
+	white-space: nowrap;
+}
 
 .turnOpaque{
 	opacity: 0.2;

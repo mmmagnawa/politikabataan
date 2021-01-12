@@ -714,6 +714,7 @@ img.banner {
 	width: 90%;
 }
 .centered{
+	background-color: #f4f5f6;
 	padding-top: 25px;
 	margin: auto;
 	width: 50%;

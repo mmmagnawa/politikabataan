@@ -115,7 +115,7 @@
     text-align: justify;
     line-height: 24px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     color: #37474F;
 }
 
@@ -265,7 +265,7 @@
 .forum p {
 	margin-top: -10em;
   	margin-bottom: -11em;
-	text-indent: 3em
+	text-indent: 3em;
 }
 
 .references {
@@ -298,6 +298,7 @@
     text-transform: uppercase;
     margin-bottom: 0px;
     padding-bottom: 10px;
+	font-family: 'Palatino Linotype';
 }
 
 .references a {

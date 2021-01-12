@@ -381,6 +381,34 @@ body {
 }
 
 @media screen and (min-width: 321px) and (max-width: 700px) {
+body .centered1{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 70%;
+}
+
+body .centered2{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 70%;
+}
+
+body .centered3{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 70%;
+}
+
+
+body .centered4{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 70%;
+}
 
 .hidden .profilethumbh{
 	width: 40%;
@@ -488,6 +516,35 @@ body .centered{
 
 
 @media (min-width: 701px) and (max-width: 1000px) {
+body .centered1{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 50%;
+}
+
+body .centered2{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 50%;
+}
+
+body .centered3{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 50%;
+}
+
+
+body .centered4{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 50%;
+}	
+	
 .hidden .profilethumbh{
 	width: 200px;
 	height: 200px;
@@ -732,6 +789,11 @@ img.banner {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     color: #343434;
 }
+.centered h4{
+	text-align:right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #343434;
+}
 
 .centered #lyrics_button{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -753,9 +815,52 @@ img.banner {
 	height: 400px;
 }
 
-//Memes
-body #meme1{
-	display:block;
-	max-width: 100%;
-	height: auto;
+.centered1{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 35%;
+}
+
+.centered1 h4{
+	text-align:right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #343434;
+}
+.centered2{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 35%;
+}
+
+.centered2 h4{
+	text-align:right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #343434;
+}
+.centered3{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 35%;
+}
+
+.centered3 h4{
+	text-align:right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #343434;
+}
+
+.centered4{
+	background-color: #f4f5f6;
+	padding-top: 25px;
+	margin: auto;
+	width: 35%;
+}
+
+.centered4 h4{
+	text-align:right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #343434;
 }

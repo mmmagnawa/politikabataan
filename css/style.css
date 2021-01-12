@@ -91,17 +91,15 @@
 }
 
 .left_article {
-    width: 500px;
+    width: 100%;
     float: left;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     color: #343434;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     padding-right: 0px;
 }
 
 .container .left_article h3{
-    padding-left: 5%;
-    padding-right: 5%;
     color: #212026;
     font-weight: bold;
 	font-size: 20px;
@@ -195,6 +193,16 @@
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
+
+.container .forum h5{
+    padding-left: 5%;
+    padding-right: 5%;
+	color: #7E57C2;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
 .artrows {
     background: #ffffff;
     width: 80%;
@@ -272,7 +280,6 @@
     width: 100%;
     float: left;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-    padding-bottom: 60px;
     padding-right: 0px;
 	word-wrap: break-word;
 	
@@ -282,11 +289,13 @@
     list-style: none;
     padding-left: 5%;
     padding-right: 5%;
-    text-indent: 0;
+	margin-left: 1%;
+    text-indent: 0%;
     color: #37474F;
 }
 
 .references ul li {
+	text-indent: -1%; 
 	margin-bottom: 1em;
 }
 

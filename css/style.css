@@ -414,11 +414,27 @@ body .centered4{
 	width: 40%;
 	height: 35%;
 }
+body .hidden #pftext{
+	padding: none;
+}
+body .hidden img{
+	display: block;
+	float: none;
+	margin: auto;
+	padding: none;
+}
+
 body .hidden h3{
 	font-size: 12px;
+	clear: left;
+	display: block;
+	margin-left: -30%;
 }
 body .hidden p{
+	display: inline;
 	font-size: 10px;
+	margin-left: -17%;
+	padding-right: 10 px;
 }
 
 body .centered{

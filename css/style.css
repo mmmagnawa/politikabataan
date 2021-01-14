@@ -572,13 +572,26 @@ body .centered4{
 	
 .hidden .profilethumbh{
 	width: 200px;
-	height: 200px;
+	height: 220px;
 }
+body .hidden img{
+	display: block;
+	float: none;
+	margin: auto;
+	padding: none;
+}
+
 body .hidden h3{
 	font-size: 18px;
+	clear: left;
+	display: block;
+	margin-left: -30%;
 }
 body .hidden p{
 	font-size: 12px;
+	display: inline;
+	margin-left: -17%;
+	padding-right: 10 px;
 }
 body .centered{
 	width: 75%;
